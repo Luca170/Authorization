@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(26, 26, 29);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+h1 {
+    font-size:5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    color:white;
+    background-color: inherit;
+    font-size:3rem;
+    padding:10px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+button:hover {
+    background-color:white;
+    color:rgb(26, 26, 29);
+    cursor:pointer
+}
